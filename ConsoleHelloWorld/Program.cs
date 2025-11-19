@@ -4,13 +4,26 @@
     {
         static void Main(string[] args)
         {
+            string name = "";
+            int height = 0;
             Console.WriteLine("Hello, World!");
-            Console.WriteLine("My name is Thanwa Phanetram");
-            Console.WriteLine("Computer science Program");
-            Console.WriteLine("------------+++------------");
-            Console.WriteLine("My Hometown is");
-            Console.WriteLine("Nongkhai");
-            Console.WriteLine("Thailand");
+            Console.WriteLine();
+            Console.Write("Please input your name (ENG) : ");
+            name = Console.ReadLine();
+             
+
+            Console.WriteLine("Hello, Welcome "+name);
+
+            Console.Write("Please fill you height(cm) : ");
+            height = Convert.ToInt16(Console.ReadLine());
+            int weight = height - 100;
+
+            Console.WriteLine("You ideal weight is " + weight.ToString());
+
+
+            Console.WriteLine();
+            Console.WriteLine("Press any key to end program");
+            Console.ReadKey();
         }
     }
 }

@@ -10,7 +10,6 @@
             Console.WriteLine();
             Console.Write("Please input your name (ENG) : ");
             name = Console.ReadLine();
-            //ffffffffff
 
             Console.WriteLine("Hello, Welcome "+name);
 
